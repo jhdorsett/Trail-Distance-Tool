@@ -1,0 +1,16 @@
+name: trail_map
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - geopandas
+  - matplotlib
+  - pyproj
+  - python=3.9
+  - shapely
+  - ipykernel
+  - mpld3
+  - mplcursors
+  - contextily
+  - numpy
+prefix: /opt/miniconda3/envs/trail_map
